@@ -1,0 +1,186 @@
+/* stylesheet for project-1 */
+
+h1 {
+    color: darkred;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: darkred;
+    font-style: oblique;
+}
+
+h3 {
+    color: darkred;
+    text-align: center;
+}
+
+img {
+    padding: 10px 10px;
+}
+
+p {
+    text-align: center;
+}
+
+blockquote {
+    text-align: center;
+}
+
+ul {
+    padding: 0px 10px;
+    list-style-type: none;
+}
+
+#logo {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 36%
+}
+
+#socials {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    float: right;
+}
+
+/* Home Page structure */
+
+.HomeOuterBox {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+
+.HomeInfoBox {
+    padding: 10px 10px 10px 10px;
+}
+
+/* Menu Page structure */
+
+.menuOuterBox {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px 0px;
+}
+.menuInnerBoxLeft {
+    padding: 10px 10px;
+    margin-right: auto;
+    width: 50%;  
+}
+
+.menuInnerBoxLeftPic {
+    padding: 0px 0px;
+    margin-right: auto;
+    width: 50%;  
+}
+
+.menuInnerBoxRight {
+    padding: 10px 10px;
+    margin-left: auto;
+    width: 50%;  
+}
+
+.menuInnerBoxRightPic {
+    padding: 0px 0px;
+    margin-left: auto;
+    width: 50%;  
+}
+
+.menuLabelBox {
+    border: 2px solid goldenrod;
+}
+
+.menuItems {
+    float: left;
+}
+
+.prices {
+    float: right;
+    text-align: right;
+}
+
+/* Contact Page structure */
+
+.outerBox {
+    display: flex;
+    margin-left: 120px;
+    margin-right: auto;
+    width: 100%
+}
+
+.infoBox {
+    padding: 40px 30px 15px 30px;
+}
+
+.mapouter {
+    border: 2px solid goldenrod;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+
+/* nav structure */
+
+nav li  a  {
+    display: block;
+    padding: 10px 20px;
+    float: left;
+    color: darkred; 
+}
+
+nav li {
+    border: 2px solid goldenrod;
+    font-size: large;
+    list-style-type: none;
+    display: block;
+    float: left;
+}
+
+nav {
+    clear: both;
+    width: 386px;
+    margin: 0 auto;
+}
+
+/* structure and layout */
+
+#wrapper {
+    width: 960px;
+    margin: 0px auto 0px auto;
+}
+
+#content-sidebar-wrapper {
+    clear: both;
+}
+
+#content {
+   /* border: 3px solid black; */
+    width: 100%;
+    float: left;
+}
+
+footer {
+    display: flex;
+    padding: 10px 0px 10px 10px;
+    width: 100%;
+    border: 2px solid goldenrod;
+    clear: both;
+}
