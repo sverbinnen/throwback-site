@@ -1,0 +1,20 @@
+/* custion css file */
+
+/* home page main image */
+
+#home-main-image {
+    background-image: url(../img/home-page-large-image-memaw-gettin-in-the-car.jpg);
+    background-size: cover;
+}
+
+#home-main-image .cell {
+    min-height: 300px;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+footer {
+    background-color: darkslategray;
+}
