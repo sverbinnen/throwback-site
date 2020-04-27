@@ -1,0 +1,78 @@
+/* custom css file */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Hammersmith+One&family=Roboto:wght@300;400&display=swap');
+
+/* font-family: 'Bangers', cursive; 
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+.off-canvas {
+    background-color: #7A6276;
+    color: white;
+}
+
+.callout.primary
+{
+    background-color: #44053A;
+}
+
+.callout.primary a
+{
+    color: white;
+}
+
+/* Typography */
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 60pt;
+}
+
+h2 {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+h3 {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation */
+
+nav li  a  {
+    display: block;
+    padding: 0px 15px 10px;
+    float: left; 
+}
+
+nav li {
+    font-size: medium;
+    list-style-type: none;
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    clear: both;
+    width: 422px;
+    margin: 0 auto;
+}
+
+/* Misc */
+
+.order-pricing {
+    text-align: center;
+    font-size: large;
+}
+
+.button {
+    background-color: #44053A;
+}
